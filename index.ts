@@ -79,3 +79,8 @@ interface Manager extends Employee {
 let manager: Manager = {employeeId: 101 ,departement: 'HR'}
 console.log(manager)
 
+
+// Type alias
+type ID = number | string
+let userId: ID = 1001
+
